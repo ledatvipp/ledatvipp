@@ -57,7 +57,7 @@
 </details>
 
 <details>
-  <summary><b>⚔️ Minecraft Server Networks & Custom Plugins</b></summary>
+  <summary><b>⚔️ Server Networks & Custom Plugins</b></summary>
   <blockquote>Developing custom plugins (like <code>BaovePvP</code>), optimizing open-source addons, and designing beautiful, interactive server selection boards for SMP and Survival modes.</blockquote>
 </details>
 
