@@ -1,25 +1,24 @@
-<h1 align="center">Xin chào, tôi là Lê Đạt 👋</h1>
-<h3 align="center">Software Developer | Web & API Integrator | Minecraft Server Expert</h3>
+<h1 align="center">Hi there, I'm Le Dat 👋</h1>
+<h3 align="center">Software Developer | Tech Enthusiast | Minecraft Server Creator</h3>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=X%C3%A2y+d%E1%BB%B1ng+H%E1%BB%87+th%E1%BB%91ng+T%E1%BB%B1+%C4%91%E1%BB%99ng+h%C3%B3a;Ph%C3%A1t+tri%E1%BB%83n+Plugin+Minecraft+%26+Discord+Bot;Thi%E1%BA%BFt+k%E1%BA%BF+Web+%26+T%C3%ADch+h%E1%BB%A3p+API;Đam+mê+công+nghệ+mới+và+IoT" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=Building+Automated+Systems;Crafting+Minecraft+Plugins+%26+Bots;Tinkering+with+IoT+%26+Hardware;Designing+Web+%26+API+Solutions" alt="Typing SVG" />
   </a>
 </p>
 
 ---
 
-### 🚀 Về bản thân (About Me)
+### 🚀 About Me
 
-- 🔭 Hiện tại tôi đang phát triển **Hệ thống Tracking GPS (ESP32 & Cloudflare Workers)** và **Bot Discord SaaS (SYLA)**.
-- 🌱 Đang tập trung đào sâu vào **Kiến trúc Web, Tích hợp API tự động (Banking/Payment)** và thuật toán tối ưu hóa.
-- 🛠️ Chuyên gia trong việc thiết kế giao diện, cấu hình và phát triển tính năng cho các hệ thống **Minecraft Server** quy mô lớn (InteractiveBoard, Spigot/PaperMC).
-- ⚡ **Fun fact:** Tôi thích biến những ý tưởng phức tạp thành giải pháp thực tế, từ phần cứng IoT, Backend Web cho đến In-game Assets.
+- 🔭 I’m currently working on an **ESP32 GPS tracking project** and a SaaS Discord bot named **SYLA**.
+- 🌱 I’m currently learning more about **discrete mathematics**, web architecture, and automated API integrations.
+- 🛠️ I spend a lot of time designing, configuring, and developing features for **Minecraft Server networks** (spigot/PaperMC, custom UIs).
+- ⚡ **Fun fact:** When I'm not coding or debugging, you can probably find me listening to Modern Trap and Vietnamese rap, or admiring Japanese manga art styles.
 
 ---
 
-### 💻 Công nghệ & Kỹ năng (Tech Stack)
-*Xây dựng và triển khai dự án với các công nghệ:*
+### 💻 Tech Stack & Tools
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" title="Java" />
@@ -34,8 +33,8 @@
 
 ---
 
-### 📊 Xác thực Năng lực (Live GitHub Stats)
-*Dữ liệu dưới đây được cập nhật tự động theo thời gian thực (Real-time tracking), giúp các đối tác và nhà tuyển dụng dễ dàng đánh giá mức độ hoạt động và sự chuyên cần.*
+### 📊 My GitHub Activity
+*A real-time look at how often I code and contribute to my projects.*
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ledatvipp&show_icons=true&theme=react&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="48%" />
@@ -48,28 +47,28 @@
 
 ---
 
-### 🔍 Các dự án tiêu biểu (Highlighted Projects)
+### 🔍 What I'm Building
 
-*Click vào từng mục để xem chi tiết:*
+*Click on each section to see the details!*
 
 <details>
-  <summary><b>💳 Hệ thống Tự động hóa & Thanh toán (Auto-Banking)</b></summary>
-  <blockquote>Tích hợp API thanh toán từ các cổng dịch vụ (cardvip.vn, thesieure), kết hợp chuyển đổi shell scripts sang batch files để xử lý các giao dịch In-game / SaaS một cách tự động và bảo mật.</blockquote>
+  <summary><b>💳 Automated Banking & Payment Systems</b></summary>
+  <blockquote>Integrating payment APIs (like cardvip.vn and thesieure) and converting shell scripts to batch files to handle seamless, automated in-game and SaaS transactions.</blockquote>
 </details>
 
 <details>
-  <summary><b>⚔️ Minecraft Server Network & Custom Plugins</b></summary>
-  <blockquote>Phát triển các plugin chuyên biệt như <code>BaovePvP</code>, thiết kế UI server lựa chọn chế độ chơi (SMP, Survival) tinh xảo bằng InteractiveBoard, và tối ưu hóa các addon mã nguồn mở (như <code>HotbarPets</code>).</blockquote>
+  <summary><b>⚔️ Minecraft Server Networks & Custom Plugins</b></summary>
+  <blockquote>Developing custom plugins (like <code>BaovePvP</code>), optimizing open-source addons, and designing beautiful, interactive server selection boards for SMP and Survival modes.</blockquote>
 </details>
 
 <details>
-  <summary><b>📡 GPS Tracking Hardware & Web UI (ESP32)</b></summary>
-  <blockquote>Dự án IoT thực tế: Sử dụng mạch ESP32 truyền dữ liệu vị trí qua 4G/WiFi lên Cloudflare KV, sau đó hiển thị real-time giao diện bản đồ cho người dùng thông qua GitHub Pages.</blockquote>
+  <summary><b>📡 IoT GPS Tracker (ESP32)</b></summary>
+  <blockquote>A hardware-to-web project using an ESP32 board to send location data via 4G/WiFi to Cloudflare KV. The live location is then visualized on a custom GitHub Pages web interface.</blockquote>
 </details>
 
 ---
 
-### 📫 Kết nối với tôi
+### 📫 Let's Connect
 
 <p align="center">
   <a href="mailto:thanhvu220809@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
