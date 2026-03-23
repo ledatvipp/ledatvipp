@@ -14,7 +14,7 @@
 - 🔭 I’m currently working on an **ESP32 GPS tracking project** and a SaaS Discord bot named **SYLA**.
 - 🌱 I’m currently learning more about **discrete mathematics**, web architecture, and automated API integrations.
 - 🛠️ I spend a lot of time designing, configuring, and developing features for **Minecraft Server networks** (spigot/PaperMC, custom UIs).
-- ⚡ **Fun fact:** When I'm not coding or debugging, you can probably find me listening to Modern Trap and Vietnamese rap, or admiring Japanese manga art styles.
+- ⚡ **Fun fact:** When I'm not coding or debugging, you can probably find me listening to Modern Trap and Vietnamese rap, or Lien Quan Mobile.
 
 ---
 
