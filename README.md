@@ -1,5 +1,5 @@
 <h1 align="center">Hi there, I'm Le Dat 👋</h1>
-<h3 align="center">Software Developer | Tech Enthusiast | Server</h3>
+<h3 align="center">Software Developer | Tech Enthusiast | Server Manager</h3>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
