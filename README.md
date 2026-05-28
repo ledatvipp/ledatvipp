@@ -1,9 +1,9 @@
 <h1 align="center">Hi there, I'm Le Dat 👋</h1>
-<h3 align="center">Website Developer • SEO & Landing Page Builder • Automation Enthusiast</h3>
+<h3 align="center">Website Developer • Minecraft Ecosystem Builder • Automation Enthusiast</h3>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=22&pause=1000&color=00B0FF&center=true&vCenter=true&width=860&lines=I+build+high-converting+websites+and+landing+pages;I+optimize+SEO+structure+for+better+ranking+and+speed;I+develop+automation+systems+for+business+and+gaming;I+ship+plugins+bots+and+real-time+web+features" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=22&pause=1000&color=00B0FF&center=true&vCenter=true&width=780&lines=I+build+websites+for+Minecraft+communities;I+develop+automation+systems+for+servers+and+SaaS;I+ship+plugins+bots+and+real-time+web+features;Always+learning%2C+always+building" alt="Typing SVG" />
   </a>
 </p>
 
@@ -17,16 +17,16 @@
 
 ## 🚀 About Me
 
-- 🔭 I build **websites, landing pages, and SEO-ready web systems** for both gaming and non-gaming businesses.
-- 🧩 I design end-to-end solutions: **frontend UI, content structure, technical SEO, and API automation**.
-- 🏗️ I also develop **server ecosystems** (plugins, Discord bots, payment integrations, and user-facing web experiences).
-- ⚡ I love turning complex operations into **clean, scalable products** that are easy to use.
+- 🔭 I’m focused on **building websites and systems for Minecraft communities**, from landing pages to management tools.
+- 🧩 I design and maintain **server ecosystems**: plugins, Discord bots, payment integrations, and user-facing web experiences.
+- 🌱 I’m actively improving my skills in **web architecture, system design, and API automation**.
+- ⚡ I love turning complex operational workflows into **clean, automated products** that players and admins can use easily.
 
 ---
 
 ## 🌐 Featured Website Projects
 
-> Portfolio highlights across Minecraft communities and general web development.
+> These projects highlight my web development direction for gaming communities and server brands.
 
 ### 1) MineRua Website
 - Built and maintained the website presence for **MineRua**.
@@ -43,12 +43,7 @@
 - Focus: modern styling, player onboarding flow, and update-ready page blocks.
 - Role: web interface development + maintainable page organization.
 
-### 4) SEO & Landing Page Projects (Business/Personal)
-- Designed and optimized landing pages for **lead generation** and conversion-focused campaigns.
-- Applied **technical SEO foundations**: heading structure, metadata, semantic HTML, performance-aware layout, and crawl-friendly content architecture.
-- Improved page clarity for both users and search engines while keeping strong visual branding.
-
-> ✅ I can build similar projects: homepage, landing page, SEO content hub, store/guide pages, event pages, documentation sections, and integration-ready frontends.
+> ✅ I can build similar websites for other servers: homepage, store/guide pages, event pages, documentation sections, and integration-ready frontends.
 
 ---
 
@@ -64,11 +59,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Technical_SEO-0F9D58?style=for-the-badge&logo=google&logoColor=white" title="Technical SEO" />
-  <img src="https://img.shields.io/badge/Landing_Page_CRO-FF6F00?style=for-the-badge" title="Landing Page & Conversion" />
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" title="Cloudflare Services" />
   <img src="https://img.shields.io/badge/Discord_API-5865F2?style=for-the-badge&logo=discord&logoColor=white" title="Discord Bot Development" />
   <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" title="GitHub Pages" />
+  <img src="https://img.shields.io/badge/REST_API-009688?style=for-the-badge" title="REST API Integrations" />
 </p>
 
 ---
@@ -101,21 +95,14 @@
 ## 🧱 What I Build
 
 <details>
-  <summary><b>🌍 Websites, Landing Pages & SEO Systems</b></summary>
+  <summary><b>🌍 Community Websites for Minecraft Servers</b></summary>
   <blockquote>
-    Business websites, portfolio websites, campaign landing pages, and SEO-friendly structures designed for performance, ranking, and conversion.
+    Landing pages, server info hubs, guide pages, event pages, and brand-focused websites that help communities look professional and trustworthy.
   </blockquote>
 </details>
 
 <details>
-  <summary><b>⚔️ Community Websites for Minecraft Servers</b></summary>
-  <blockquote>
-    Landing pages, server info hubs, guide pages, event pages, and brand-focused websites for gaming communities.
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>⚙️ Custom Plugins & Server Systems</b></summary>
+  <summary><b>⚔️ Custom Plugins & Server Systems</b></summary>
   <blockquote>
     Plugin development, server feature optimization, and custom systems for gameplay, protection, and management.
   </blockquote>
@@ -135,11 +122,18 @@
   </blockquote>
 </details>
 
+<details>
+  <summary><b>📡 IoT + Realtime Web Tracking</b></summary>
+  <blockquote>
+    ESP32-based GPS pipeline with Cloudflare-backed data handling and live visualization on web interfaces.
+  </blockquote>
+</details>
+
 ---
 
 ## 🤝 Collaboration
 
-If you need a developer for **website development, landing pages, SEO improvements, or connected systems** (website + automation + bot), feel free to reach out.
+If you need someone to develop a **website for your Minecraft server/project**, optimize your current pages, or build connected systems (website + bot + server), feel free to reach out.
 
 <p align="center">
   <a href="mailto:thanhvu220809@gmail.com"><img src="https://img.shields.io/badge/Hire_or_Collab-Email_Me-0A66C2?style=for-the-badge&logo=gmail&logoColor=white" alt="Hire or Collaboration" /></a>
