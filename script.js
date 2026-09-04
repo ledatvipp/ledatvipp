@@ -1,254 +1,341 @@
-const portfolioData = {
-  metrics: [
-    { value: '08+', label: 'Năm kinh nghiệm định hướng sản phẩm' },
-    { value: '30+', label: 'Dự án đã triển khai hoặc tham gia' },
-    { value: '99%', label: 'Tập trung vào chất lượng đầu ra' },
-  ],
-  roles: [
-    'Frontend Developer',
-    'Product-minded Builder',
-    'UI/UX-driven Problem Solver',
-    'Professional Personal Brand Crafter',
-  ],
-  trustSignals: [
-    { label: 'Working style', value: 'Rõ ràng, đúng hẹn, có trách nhiệm' },
-    { label: 'Output quality', value: 'Ưu tiên trải nghiệm premium và cảm giác chắc tay' },
-    { label: 'Mindset', value: 'Làm việc như một người ownership, không chỉ nhận task' },
-  ],
-  logos: ['TRUSTED PRESENCE', 'PREMIUM EXECUTION', 'CLEAR THINKING', 'HIGH STANDARDS'],
-  strengths: [
-    'Hình ảnh cá nhân cao cấp',
-    'Bố cục thuyết phục',
-    'Tư duy sản phẩm',
-    'Thực thi nhanh và chắc',
-    'Khả năng kể chuyện bằng giao diện',
-    'Tinh thần ownership',
-  ],
-  capabilities: [
-    {
-      title: 'Xây dựng perception chuyên nghiệp',
-      description:
-        'Thiết kế hệ thống nội dung và visual để người xem cảm nhận rõ sự uy tín, độ chín và tiêu chuẩn làm việc của bạn.',
-    },
-    {
-      title: 'Thiết kế trải nghiệm có định hướng',
-      description:
-        'Mỗi section đều có vai trò rõ ràng: giới thiệu bản thân, chứng minh năng lực, thể hiện case study và dẫn đến hành động.',
-    },
-    {
-      title: 'Frontend chỉn chu, responsive tốt',
-      description:
-        'Triển khai giao diện mượt, gọn, hiện đại; đảm bảo trải nghiệm tốt trên desktop lẫn mobile.',
-    },
-    {
-      title: 'Ngôn ngữ thương hiệu mạnh',
-      description:
-        'Tone chữ được xây dựng theo hướng tự tin, đĩnh đạc và có chất lượng để portfolio không bị mờ nhạt.',
-    },
-  ],
-  timeline: [
-    {
-      step: '01',
-      title: 'Làm rõ định vị cá nhân',
-      description: 'Xác định vai trò, điểm mạnh, giá trị khác biệt và thông điệp cốt lõi cần truyền tải.',
-    },
-    {
-      step: '02',
-      title: 'Cấu trúc nội dung chiến lược',
-      description: 'Sắp xếp thông tin theo logic giúp người xem tin tưởng nhanh hơn: bạn là ai, mạnh gì, đã làm gì.',
-    },
-    {
-      step: '03',
-      title: 'Thiết kế visual đậm chất premium',
-      description: 'Dùng màu sắc, khoảng trắng, typography và card layout để tạo cảm giác đẳng cấp, mạnh và chuyên nghiệp.',
-    },
-    {
-      step: '04',
-      title: 'Chốt bằng bằng chứng và liên hệ',
-      description: 'Hiển thị case study, tiêu chuẩn làm việc và kênh liên hệ rõ ràng để tăng khả năng chuyển đổi.',
-    },
-  ],
-  standards: [
-    'Tư duy hệ thống thay vì làm từng phần rời rạc',
-    'Visual sạch, sang, không phô trương nhưng vẫn nổi bật',
-    'Ngôn ngữ thể hiện sự tự tin và trưởng thành',
-    'Tập trung vào giá trị cảm nhận của người xem',
-  ],
-  projects: [
-    {
-      title: 'Executive Personal Portfolio',
-      description:
-        'Portfolio dành cho cá nhân muốn định vị ở nhóm chất lượng cao: giao diện sang, nhấn mạnh credibility, case study và thành tựu.',
-      tags: ['Positioning', 'Premium UI', 'Trust-first'],
-    },
-    {
-      title: 'Conversion-focused Service Page',
-      description:
-        'Landing page cho dịch vụ chuyên môn với cấu trúc dẫn dắt rõ: nỗi đau, giải pháp, bằng chứng, quy trình và CTA.',
-      tags: ['Strategy', 'Storytelling', 'Execution'],
-    },
-    {
-      title: 'Founder / Builder Profile',
-      description:
-        'Trang hồ sơ cá nhân dành cho founder hoặc builder muốn thể hiện phong thái chững chạc, rõ năng lực và có gu chuyên nghiệp.',
-      tags: ['Founder Brand', 'Professional Image', 'Responsive'],
-    },
-  ],
-  testimonials: [
-    {
-      quote:
-        'Phong cách thể hiện rất chắc. Nhìn vào là thấy sự chỉn chu, rõ tư duy và có thể tin tưởng để làm việc lâu dài.',
-      author: 'Perception mục tiêu',
-    },
-    {
-      quote:
-        'Điểm mạnh của mẫu này là tạo được cảm giác cao cấp và đáng tin mà vẫn giữ trải nghiệm hiện đại, dễ đọc.',
-      author: 'Định vị hình ảnh cá nhân',
-    },
-  ],
-  contacts: [
-    {
-      label: 'Email',
-      value: 'yourname@email.com',
-      href: 'mailto:yourname@email.com',
-    },
-    {
-      label: 'LinkedIn',
-      value: 'linkedin.com/in/your-profile',
-      href: 'https://linkedin.com/in/your-profile',
-    },
-    {
-      label: 'GitHub',
-      value: 'github.com/your-username',
-      href: 'https://github.com/your-username',
-    },
-    {
-      label: 'Phone',
-      value: '+84 000 000 000',
-      href: 'tel:+84000000000',
-    },
-  ],
-};
+/**
+ * LE DAT (ledatvipp) - PORTFOLIO INTERACTIVE LOGIC
+ * High performance, zero external dependencies, clean architecture.
+ */
 
-const renderList = (items, targetId, mapFn) => {
-  const target = document.getElementById(targetId);
-  if (!target) return;
-  target.innerHTML = items.map(mapFn).join('');
-};
+// --- DATASET: FEATURED PROJECTS ---
+const projectsData = [
+  {
+    id: 'minerua',
+    title: 'MineRua Web Platform',
+    category: 'web',
+    categoryName: 'Gaming Websites',
+    icon: '🌐',
+    visualClass: 'visual-minerua',
+    description:
+      'Official web ecosystem for the MineRua gaming server featuring a modern dark gaming aesthetic, SEO optimization, and sub-second load times.',
+    highlights: [
+      'Bespoke brand visual identity, 100% responsive across all screen sizes',
+      'Integrated real-time online status monitoring and server news',
+      'Protected and cached globally via Cloudflare CDN network',
+    ],
+    tags: ['HTML5/CSS3', 'Modern JS', 'Cloudflare CDN', 'Gaming UI'],
+  },
+  {
+    id: 'is7mc',
+    title: 'is7mc Community Hub',
+    category: 'web',
+    categoryName: 'Gaming Websites',
+    icon: '⚔️',
+    visualClass: 'visual-is7mc',
+    description:
+      'Community portal for the is7mc player base, focusing on a clean mobile-first reading experience and instant server status telemetry.',
+    highlights: [
+      'Scientific card-based layout optimized for mobile smartphones',
+      'Real-time online player count and server status synchronization',
+      'Ultra-lightweight vanilla front-end architecture',
+    ],
+    tags: ['Mobile-First', 'REST API', 'Realtime Sync', 'Performance'],
+  },
+  {
+    id: 'starmine',
+    title: 'Starmine Network Portal',
+    category: 'web',
+    categoryName: 'Gaming Websites',
+    icon: '🚀',
+    visualClass: 'visual-starmine',
+    description:
+      'Brand-centric homepage and navigation portal for Starmine, reinforcing server identity and streamlining new player onboarding.',
+    highlights: [
+      'Intuitive player onboarding flow with rules and installation guides',
+      'Modular layout prepared for web store top-ups and wiki articles',
+      'Blazing-fast response times backed by optimized asset delivery',
+    ],
+    tags: ['Brand Identity', 'Onboarding UX', 'Fast CDN', 'Web Portal'],
+  },
+  {
+    id: 'minecraft-core',
+    title: 'Custom Plugins & Core Engine',
+    category: 'minecraft',
+    categoryName: 'Minecraft & Plugins',
+    icon: '🧩',
+    visualClass: 'visual-plugin',
+    description:
+      'High-performance proprietary plugin suite for Paper / Purpur servers, utilizing asynchronous execution to sustain rock-solid 20.0 TPS.',
+    highlights: [
+      'Interactive custom GUI system with structured lore formatting',
+      'Asynchronous task scheduling preventing main thread latency',
+      'Standard Gradle build structure with secure SQL synchronization',
+    ],
+    tags: ['Java 17/21', 'PaperMC', 'Gradle', 'High TPS', 'Async Tasks'],
+  },
+  {
+    id: 'discord-bot',
+    title: 'Discord Ops & Automation Bot',
+    category: 'automation',
+    categoryName: 'Automation & IoT',
+    icon: '🤖',
+    visualClass: 'visual-discord',
+    description:
+      'Full-featured Discord management bot automating player support tickets, role synchronizations, incident alerts, and payment webhooks.',
+    highlights: [
+      '24/7 support ticket system with interactive buttons and modals',
+      'Automated sync between in-game ranks and Discord roles',
+      'Instant payment webhook validation and transaction processing',
+    ],
+    tags: ['Discord API', 'Node.js', 'Webhook Pipeline', 'Automation'],
+  },
+  {
+    id: 'iot-gps',
+    title: 'IoT ESP32 Realtime GPS Tracker',
+    category: 'automation',
+    categoryName: 'Automation & IoT',
+    icon: '📡',
+    visualClass: 'visual-iot',
+    description:
+      'Real-time geolocation telemetry pipeline: gathering satellite fixes from an ESP32 hardware unit, parsing via Cloudflare, and visualizing on live web maps.',
+    highlights: [
+      'Embedded ESP32 firmware communicating with GPS hardware sensors',
+      'Serverless Cloudflare Workers backend processing location payloads',
+      'Interactive web dashboard rendering real-time route tracing',
+    ],
+    tags: ['ESP32 (C++)', 'Cloudflare Workers', 'Realtime Map', 'IoT'],
+  },
+];
 
-renderList(
-  portfolioData.metrics,
-  'hero-metrics',
-  (item) => `
-    <div class="metric-item">
-      <strong>${item.value}</strong>
-      <span>${item.label}</span>
-    </div>
-  `
-);
+// --- CORE APPLICATION INITIALIZATION ---
+document.addEventListener('DOMContentLoaded', () => {
+  initProjectsRender();
+  initMouseSpotlight();
+  initCopyButtons();
+  initNavigation();
+  initQuickForm();
+  initBackToTop();
+});
 
-renderList(
-  portfolioData.roles,
-  'roles-list',
-  (role, index) => `<li><span>${role}</span><strong>0${index + 1}</strong></li>`
-);
+// --- RENDER PROJECTS & FILTERING ---
+function initProjectsRender() {
+  const container = document.getElementById('projects-container');
+  const filterButtons = document.querySelectorAll('.filter-btn');
 
-renderList(
-  portfolioData.trustSignals,
-  'trust-list',
-  (item) => `
-    <div class="trust-item">
-      <span>${item.label}</span>
-      <strong>${item.value}</strong>
-    </div>
-  `
-);
+  if (!container) return;
 
-renderList(
-  portfolioData.logos,
-  'logo-strip',
-  (item) => `<span>${item}</span>`
-);
+  function render(category = 'all') {
+    const filtered = category === 'all' 
+      ? projectsData 
+      : projectsData.filter((item) => item.category === category);
 
-renderList(
-  portfolioData.strengths,
-  'strength-list',
-  (strength) => `<span class="chip">${strength}</span>`
-);
+    container.innerHTML = filtered
+      .map(
+        (p) => `
+      <article class="glass-card project-card" data-category="${p.category}">
+        <div class="project-visual ${p.visualClass}">
+          <span class="project-category-badge">${p.categoryName}</span>
+          <div class="project-icon-badge">${p.icon}</div>
+          <div class="project-visual-overlay"></div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">${p.title}</h3>
+          <p class="project-desc">${p.description}</p>
+          <ul class="project-highlights">
+            ${p.highlights.map((h) => `<li>${h}</li>`).join('')}
+          </ul>
+          <div class="project-tags-list">
+            ${p.tags.map((t) => `<span class="p-tag">${t}</span>`).join('')}
+          </div>
+        </div>
+      </article>
+    `
+      )
+      .join('');
+  }
 
-renderList(
-  portfolioData.capabilities,
-  'capability-grid',
-  (item) => `
-    <article class="glass-card capability-card">
-      <p class="eyebrow">Capability</p>
-      <h4>${item.title}</h4>
-      <p>${item.description}</p>
-    </article>
-  `
-);
+  // Initial render
+  render('all');
 
-renderList(
-  portfolioData.timeline,
-  'timeline-list',
-  (item) => `
-    <article class="timeline-item">
-      <div class="timeline-step">${item.step}</div>
-      <div>
-        <h4>${item.title}</h4>
-        <p>${item.description}</p>
-      </div>
-    </article>
-  `
-);
+  // Filter click handlers
+  filterButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      filterButtons.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filterValue = btn.getAttribute('data-filter') || 'all';
+      render(filterValue);
+    });
+  });
+}
 
-renderList(
-  portfolioData.standards,
-  'standards-list',
-  (item) => `
-    <div class="standard-item">
-      <span class="standard-dot"></span>
-      <p>${item}</p>
-    </div>
-  `
-);
+// --- MOUSE SPOTLIGHT GLOW EFFECT ---
+function initMouseSpotlight() {
+  const spotlight = document.getElementById('mouse-spotlight');
+  if (!spotlight) return;
 
-renderList(
-  portfolioData.projects,
-  'project-grid',
-  (project, index) => `
-    <article class="glass-card project-card">
-      <div class="project-visual project-visual-${index + 1}"></div>
-      <div class="project-copy">
-        <p class="eyebrow">Case ${index + 1}</p>
-        <h4>${project.title}</h4>
-        <p>${project.description}</p>
-      </div>
-      <div class="project-tags">
-        ${project.tags.map((tag) => `<span>${tag}</span>`).join('')}
-      </div>
-    </article>
-  `
-);
+  // Track cursor with smooth requestAnimationFrame throttle
+  let ticking = false;
+  window.addEventListener('mousemove', (e) => {
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        spotlight.style.left = `${e.clientX}px`;
+        spotlight.style.top = `${e.clientY}px`;
+        ticking = false;
+      });
+      ticking = true;
+    }
+  });
 
-renderList(
-  portfolioData.testimonials,
-  'testimonial-list',
-  (item) => `
-    <blockquote class="testimonial-item">
-      <p>${item.quote}</p>
-      <footer>${item.author}</footer>
-    </blockquote>
-  `
-);
+  document.addEventListener('mouseleave', () => {
+    spotlight.style.opacity = '0';
+  });
 
-renderList(
-  portfolioData.contacts,
-  'contact-list',
-  (contact) => `
-    <a class="contact-item" href="${contact.href}" target="_blank" rel="noreferrer">
-      <strong>${contact.label}</strong>
-      <span>${contact.value}</span>
-    </a>
-  `
-);
+  document.addEventListener('mouseenter', () => {
+    spotlight.style.opacity = '1';
+  });
+}
+
+// --- COPY TO CLIPBOARD WITH TOAST ---
+function initCopyButtons() {
+  const copyButtons = document.querySelectorAll('.copy-btn');
+  copyButtons.forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const text = btn.getAttribute('data-copy');
+      const label = btn.getAttribute('data-label') || 'Content';
+      if (text) {
+        copyText(text, `Copied ${label}: ${text}`);
+      }
+    });
+  });
+
+  // Terminal copy button
+  const copyCodeBtn = document.getElementById('copy-code-btn');
+  if (copyCodeBtn) {
+    copyCodeBtn.addEventListener('click', () => {
+      const profileCode = `{
+  "name": "Le Dat",
+  "alias": "ledatvipp",
+  "roles": ["Full-stack Web Developer", "Minecraft Systems Architect", "Automation Specialist"],
+  "contact": "dnxnd35@gmail.com",
+  "discord": "_dpreaent1"
+}`;
+      copyText(profileCode, 'Copied Le Dat profile JSON configuration!');
+    });
+  }
+}
+
+function copyText(text, message) {
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard
+      .writeText(text)
+      .then(() => showToast(message))
+      .catch(() => fallbackCopy(text, message));
+  } else {
+    fallbackCopy(text, message);
+  }
+}
+
+function fallbackCopy(text, message) {
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  textarea.style.position = 'fixed';
+  textarea.style.left = '-9999px';
+  document.body.appendChild(textarea);
+  textarea.select();
+  try {
+    document.execCommand('copy');
+    showToast(message);
+  } catch (err) {
+    showToast('Failed to copy automatically. Please copy manually!');
+  }
+  document.body.removeChild(textarea);
+}
+
+// --- TOAST NOTIFICATION ---
+function showToast(message, duration = 3200) {
+  const container = document.getElementById('toast-container');
+  if (!container) return;
+
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.innerHTML = `
+    <span class="toast-icon">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    </span>
+    <span>${message}</span>
+  `;
+
+  container.appendChild(toast);
+
+  setTimeout(() => {
+    toast.style.animation = 'toast-out 0.3s forwards';
+    setTimeout(() => {
+      if (toast.parentNode) {
+        toast.parentNode.removeChild(toast);
+      }
+    }, 300);
+  }, duration);
+}
+
+// --- NAVIGATION & MOBILE MENU ---
+function initNavigation() {
+  const menuToggle = document.getElementById('menu-toggle');
+  const navMenu = document.getElementById('nav-menu');
+  const navLinks = document.querySelectorAll('.nav-link');
+
+  if (menuToggle && navMenu) {
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('open');
+      navMenu.classList.toggle('open');
+    });
+
+    navLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        menuToggle.classList.remove('open');
+        navMenu.classList.remove('open');
+      });
+    });
+  }
+}
+
+// --- QUICK CONTACT FORM ---
+function initQuickForm() {
+  const form = document.getElementById('quick-contact-form');
+  if (!form) return;
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = document.getElementById('sender-name')?.value.trim();
+    const contact = document.getElementById('sender-contact')?.value.trim();
+    const message = document.getElementById('sender-message')?.value.trim();
+
+    if (!name || !contact || !message) {
+      showToast('Please fill in all required fields!');
+      return;
+    }
+
+    const subject = encodeURIComponent(`[Project Inquiry] Request from ${name}`);
+    const body = encodeURIComponent(
+      `Name / Server: ${name}\nContact (Discord/Email): ${contact}\n\nProject Scope & Message:\n${message}`
+    );
+
+    const mailtoUrl = `mailto:dnxnd35@gmail.com?subject=${subject}&body=${body}`;
+
+    showToast('Opening your email application...', 4000);
+    setTimeout(() => {
+      window.location.href = mailtoUrl;
+    }, 600);
+
+    form.reset();
+  });
+}
+
+// --- BACK TO TOP BUTTON ---
+function initBackToTop() {
+  const backToTopBtn = document.getElementById('back-to-top');
+  if (!backToTopBtn) return;
+
+  backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  });
+}
