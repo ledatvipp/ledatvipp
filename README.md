@@ -141,32 +141,24 @@ Hello! I'm **Le Dat**, a dedicated software developer specialized in **building 
 
 ---
 
-## 🏆 GitHub Insights & Trophies
-
-<div align="center">
-  <a href="https://github.com/ledatvipp">
-    <img src="https://github-profile-trophy.vercel.app/?username=ledatvipp&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=6" alt="GitHub Trophies" />
-  </a>
-</div>
-
-<br />
+## 🏆 GitHub Insights & Statistics
 
 <div align="center">
   <table border="0">
     <tr>
-      <td width="50%">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ledatvipp&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="100%" />
+      <td width="50%" align="center">
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=ledatvipp&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="100%" />
       </td>
-      <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=ledatvipp&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%" />
+      <td width="50%" align="center">
+        <img src="https://streak-stats.demolab.com/?user=ledatvipp&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%" />
       </td>
     </tr>
     <tr>
-      <td width="50%">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ledatvipp&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="100%" />
+      <td width="50%" align="center">
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ledatvipp&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="100%" />
       </td>
-      <td width="50%">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=ledatvipp&theme=tokyo-night&hide_border=true" alt="Contribution Graph" width="100%" />
+      <td width="50%" align="center">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ledatvipp&theme=tokyonight" alt="Profile Summary & Contributions" width="100%" />
       </td>
     </tr>
   </table>
